@@ -1,7 +1,7 @@
 {
   "app_name": "tscd",
   "app_version": "",
-  "genesis_time": "2025-06-02T19:07:31.399379Z",
+  "genesis_time": "2025-06-03T20:05:03.355257396Z",
   "chain_id": "tsc-devnet",
   "initial_height": 1,
   "app_hash": null,
@@ -11,50 +11,66 @@
       "contracts": []
     },
     "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "account_number": "0",
           "address": "tsc1cd3de90g8ktz20qtyc945chwg8pg8xn9trwpz4",
           "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "tsc1grl8wuaj0yg6wvzvyxdtnnajp9em49m5fjz07v",
+          "pub_key": null,
+          "account_number": "1",
           "sequence": "0"
         }
-      ],
-      "params": {
-        "max_memo_characters": "256",
-        "sig_verify_cost_ed25519": "590",
-        "sig_verify_cost_secp256k1": "1000",
-        "tx_sig_limit": "7",
-        "tx_size_cost_per_byte": "10"
-      }
+      ]
     },
     "authz": {
       "authorization": []
     },
     "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
       "balances": [
+        {
+          "address": "tsc1grl8wuaj0yg6wvzvyxdtnnajp9em49m5fjz07v",
+          "coins": [
+            {
+              "denom": "uTSC",
+              "amount": "1000000000000"
+            }
+          ]
+        },
         {
           "address": "tsc1cd3de90g8ktz20qtyc945chwg8pg8xn9trwpz4",
           "coins": [
             {
-              "amount": "1000000000000",
-              "denom": "uTSC"
+              "denom": "uTSC",
+              "amount": "1000000000000"
             }
           ]
         }
       ],
-      "denom_metadata": [],
-      "params": {
-        "default_send_enabled": true,
-        "send_enabled": []
-      },
-      "send_enabled": [],
       "supply": [
         {
-          "amount": "1000000000000",
-          "denom": "uTSC"
+          "denom": "uTSC",
+          "amount": "2000000000000"
         }
-      ]
+      ],
+      "denom_metadata": [],
+      "send_enabled": []
     },
     "capability": {
       "index": "1",
@@ -171,6 +187,130 @@
     },
     "genutil": {
       "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "tsc",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "tscvaloper1cd3de90g8ktz20qtyc945chwg8pg8xn9x2qqwu",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "B2YVgMybQE0Uw/SR4vVCloHpIVJ0Lbm3ESv/P5zY2II="
+                },
+                "value": {
+                  "denom": "uTSC",
+                  "amount": "100000000000"
+                }
+              }
+            ],
+            "memo": "84140709a0656fb6bfbad8c3cf047578f4dea1dc@64.23.130.39:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.evm.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AvD/7wV6HbMJbxCwzA+Vss16kA9QIPLqDSmwuK0HO8wH"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "N2GfdsfzfxRR6/8i513pyUrZMJ8fM0XPrwnEswzqqKxYUJ9m6dUKkqc4PScyCBTE3p5b7xIKiMIVzJIoR0psBwA="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "tsc",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "tscvaloper1grl8wuaj0yg6wvzvyxdtnnajp9em49m5ymvwj9",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "6WXoFzJALqTFFXxnGrag7DVSh55POKD7cl1WaR29LLE="
+                },
+                "value": {
+                  "denom": "uTSC",
+                  "amount": "100000000000"
+                }
+              }
+            ],
+            "memo": "84bc72294391386866e619c820b3feab294ae3a7@146.190.133.220:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.evm.crypto.v1.ethsecp256k1.PubKey",
+                  "key": "AuE8zpl1RNyVCcsX2vntf0pYaDxpJbO9qmSC906MELle"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "REko871wbNK3Of8k2TBPthLTqwzzGprTid3cfDHvojpmh++pXTZV7fUUkAv78SV+qCWp2kWZlyxgl29eVELZhwE="
+          ]
+        },
         {
           "body": {
             "messages": [
