@@ -3,6 +3,6 @@
 	"moniker": "tsc",
 	"chainId": "tsc-devnet",
 	"symbol": "TSC",
-	"microDenom": "uTSC",
+	"microDenom": "utsc",
 	"decimals": 6
 }
