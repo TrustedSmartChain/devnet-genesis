@@ -1,7 +1,7 @@
 {
 	"environment": "devnet",
 	"moniker": "tsc",
-	"chainId": "tsc-devnet",
+	"chainId": "tsc_devnet-1",
 	"symbol": "TSC",
 	"microDenom": "utsc",
 	"decimals": 6
