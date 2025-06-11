@@ -4,5 +4,5 @@
 	"chainId": "tsc_9000-1",
 	"symbol": "TSC",
 	"microDenom": "uTSC",
-	"decimals": 6
+	"decimals": 8
 }
