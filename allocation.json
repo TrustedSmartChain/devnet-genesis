@@ -1,8 +1,8 @@
 {
     "denom": "TSC",
-    "totalSupply": 200000, 
+    "totalSupply": 10000, 
     "accounts": [
-        { "email": "christian.brotherson@gmail.com", "name": "Christian", "address": "tsc1cd3de90g8ktz20qtyc945chwg8pg8xn9trwpz4", "amount": 100000, "stake": 95000 },
-        { "email": "christian.brotherson+1@gmail.com", "name": "Christian", "address": "tsc1grl8wuaj0yg6wvzvyxdtnnajp9em49m5fjz07v", "amount": 100000, "stake": 95000 }
+        { "email": "christian.brotherson@gmail.com", "name": "Christian", "address": "tsc1cd3de90g8ktz20qtyc945chwg8pg8xn9trwpz4", "amount": 5000, "stake": 4500 },
+        { "email": "christian.brotherson+1@gmail.com", "name": "Christian", "address": "tsc1grl8wuaj0yg6wvzvyxdtnnajp9em49m5fjz07v", "amount": 5000, "stake": 4500 }
     ]
 }
