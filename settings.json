@@ -1,8 +1,8 @@
 {
 	"environment": "devnet",
 	"moniker": "tsc",
-	"chainId": "tsc_9000-1",
+	"chainId": "tsc_8878788-1",
 	"symbol": "TSC",
-	"microDenom": "uTSC",
-	"decimals": 8
+	"microDenom": "aTSC",
+	"decimals": 18
 }
