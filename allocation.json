@@ -2,6 +2,6 @@
     "denom": "TSC",
     "totalSupply": 10000000, 
     "accounts": [
-        { "email": "christian.brotherson+2@gmail.com", "name": "Christian", "address": "tsc1nlzm6k77pyerwa53qmq2h8qmdprxeamp8wmgfp", "amount": 10000000, "stake": 10000 }
+        { "email": "christian.brotherson+2@gmail.com", "name": "Christian", "address": "tsc1cd3de90g8ktz20qtyc945chwg8pg8xn9trwpz4", "amount": 10000000, "stake": 10000 }
     ]
 }
