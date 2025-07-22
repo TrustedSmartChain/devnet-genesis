@@ -4,5 +4,7 @@
 	"chainId": "tsc_8878788-1",
 	"symbol": "TSC",
 	"microDenom": "aTSC",
-	"decimals": 18
+	"decimals": 18,
+	"minGasPrice": "0.00000001",
+	"baseFee": "0.00000001"
 }
