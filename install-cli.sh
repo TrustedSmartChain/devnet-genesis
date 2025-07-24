@@ -4,7 +4,7 @@ set -e
 
 # DOWNLOAD
 tsc="$HOME/tsc/library/node/tsc"
-download_url="https://github.com/TrustedSmartChain/tsc/releases/download/v1.0.0/tscd-linux"
+download_url="https://github.com/TrustedSmartChain/tsc/releases/download/v1.0.0/tsc_1.8.3"
 curl -L $download_url -o $tsc --create-dirs
 chmod +x $tsc
 
