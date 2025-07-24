@@ -6,5 +6,10 @@
 	"microDenom": "aTSC",
 	"decimals": 18,
 	"minGasPrice": "0.00000001",
-	"baseFee": "0.00000001"
+	"baseFee": "0.00000001",
+	"mintingAddress": "tsc1cd3de90g8ktz20qtyc945chwg8pg8xn9trwpz4"
+	"receivingAddress": "tsc1grl8wuaj0yg6wvzvyxdtnnajp9em49m5fjz07v"
+	"maxSupply": "21000000000000000000000000"
+	"distributionStartDate": "07-07-23"
+	"monthsInHalvingPeriod": "8"
 }
